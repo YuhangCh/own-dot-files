@@ -1,2 +1,10 @@
 # vim-tmux-conf
-personal conf backup
+configs
+
+## vim 8.1
+
+vim-go
+
+## tmux
+
+**theme:**  solarized
