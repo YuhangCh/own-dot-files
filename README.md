@@ -1,4 +1,4 @@
-# vim-tmux-conf
+## vim-tmux-conf
 configs
 
 ## vim 8.1
