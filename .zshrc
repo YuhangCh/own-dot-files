@@ -5,7 +5,6 @@ export ZSH="/Users/yuhang/.oh-my-zsh"
 export GOPROXY=https://goproxy.cn,direct
 alias proxy='export all_proxy=socks5://127.0.0.1:1086'
 alias unproxy='unset all_proxy'
-#export GOPROXY=https://goproxy.cn
 #alias python='/usr/local/Cellar/python/3.7.5/bin/python3.7'
 #alias pip='/usr/local/Cellar/python/3.7.5/bin/pip3.7'
 #Set name of the theme to load --- if set to "random", it will
