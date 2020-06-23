@@ -8,3 +8,16 @@ end
 function g --wraps open --description 'google in safari'
   open -a Safari "https://google.com/search?q=$argv"
 end
+function post --description 'new post for hugo'
+  set dir  "$HOME/Repos/Pages/blog"
+  set filename  $argv[1]
+  cd $dir
+  set mdpath (echo (hugo new posts/$filename.md) | cut -f1 -d" ")
+  sed -i '' '5i\
+  tags: [""]
+  ' $mdpath
+  sed -i '' "6i\\
+  categories: [\"\"]
+  " $mdpath
+  open -a typora $mdpath
+end
