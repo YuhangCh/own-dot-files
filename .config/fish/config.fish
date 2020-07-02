@@ -1,4 +1,5 @@
-
+alias vi=nvim
+alias 2="conda activate"
 starship init fish | source
 
 # >>> conda initialize >>>
