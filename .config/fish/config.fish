@@ -1,5 +1,9 @@
+set PATH $PATH $HOME/Go/bin
 alias vi=nvim
 alias 2="conda activate"
+alias fcfg="vi ~/.config/fish/config.fish"
+alias sl="spatialite"
+alias lab="2 note;jupyter lab"
 starship init fish | source
 
 # >>> conda initialize >>>
